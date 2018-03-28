@@ -1,0 +1,125 @@
+<!--<?xml version="1.0" encoding="utf-8"?>--><!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#FFF59D"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Congratulations"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="You have completed this quiz"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/completedScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="SCORE"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correctAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/completedScore"
+        android:layout_alignStart="@+id/completedScore"
+        android:layout_below="@+id/completedScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Correct answers"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/wrongAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/correctAnswer"
+        android:layout_alignStart="@+id/correctAnswer"
+        android:layout_below="@+id/correctAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="wrong answers"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/playAgain"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/unanswered"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_dialog"
+        android:text="Play again"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/playAgain"
+        android:layout_alignStart="@+id/playAgain"
+        android:layout_below="@+id/playAgain"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_dialog"
+        android:gravity="center"
+        android:text="home"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/unanswered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wrongAnswer"
+        android:layout_alignStart="@+id/wrongAnswer"
+        android:layout_below="@+id/wrongAnswer"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="unanswered"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textSize="16sp" />
+</RelativeLayout>
+
+
+    <!--</FrameLayout>-->

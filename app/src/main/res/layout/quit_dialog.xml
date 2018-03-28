@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:background="#66BB6A">
+
+
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Leave game"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/resumeButton"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/quitButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/round_dialog"
+            android:text="Resume"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/round_dialog"
+            android:text="Quit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/resumeButton"
+            android:layout_alignStart="@+id/resumeButton" />
+    </RelativeLayout>
+
+</RelativeLayout>

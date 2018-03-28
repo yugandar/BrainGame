@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Brain Game</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="division">Division</string>
+    <string name="multiplication">Multiplication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
